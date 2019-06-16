@@ -5,13 +5,18 @@ The solution has been developped on an AWS EC2 instance (r4.4xlarge)<br>
 In order to run prediction make sure that the "data" folder structure is respected:<br>
 
     .
-    ├── data                    # 
-    │   ├── TOC.md              # Table of contents
-    │   ├── faq.md              # Frequently asked questions
-    │   ├── misc.md             # Miscellaneous information
-    │   ├── usage.md            # Getting started guide
-    │   └── ...                 # etc.
-    └── ...
+    ├── data                        # Data folder
+        ├── 0-raw_data              # Folder containing all the raw data in .csv format
+        |   ├── safety              # Folder containing the original data for the challenge
+        |   │   ├── features        # Original features data
+        |   |   └── labels          # Original labels data
+        |   └── holdout             # Folder containing the hold-out data for the challenge
+        |       ├── features        # Hold-out features data
+        |       └── labels          # Hold-out features data
+        ├── 1-preprocessed          # Folder containing the preprocessed data in .parquet format
+        ├── 2-features              # Folder containing the extracted features with labels in .parquet format
+        ├── 3-ml_datasets           # Folder containing the split between training set, validation set and hold-out set
+        └── 4-results               # Final prediction of the model (on validation set and hold-out set)
 
 >
 
