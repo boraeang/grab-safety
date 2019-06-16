@@ -4,8 +4,8 @@
 The solution has been developped on an AWS EC2 instance (r4.4xlarge)<br>
 In order to run prediction make sure that the "data" folder structure is respected:<br>
 
-+-- data
-    +-- 0-raw_data
++-- data<br>
+    +-- 0-raw_data<br>
     +--
     +-- safety
     |   +-- features
