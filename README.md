@@ -40,7 +40,7 @@ In order to make a prediction make sure that the "data" folder follows the below
 3 - Execute the python notebook **"05-preprocess-holdout-data.ipynb"** located in the "/grab-safety/00_preprocessing/" folder<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* **Becareful** extracting features with tsfresh takes approx. 4 hours even with an EC2 r4.4xlarge instance<br>
 4 - Once the features are created, go to the "/grab-safety/02_prediction/" folder and execute the python notebook **"01-apply-lgb-model.ipynb"**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The lightgbm model classifier has already been trained and is located in the folder "/grab-safety/02_prediction/models/"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The lightgbm model classifier has been already trained and is located in the folder **"/grab-safety/02_prediction/models/"**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the notebook will return the performance of the model on the hold-out data<br>
 
 # To retrain the model (not necessary as the model has been saved in this project):
