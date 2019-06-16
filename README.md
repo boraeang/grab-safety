@@ -12,7 +12,7 @@ In order to make a prediction make sure that the "data" folder follows the below
         |   |   └── labels          # Original labels data
         |   └── holdout             # Folder containing the hold-out data for the challenge
         |       ├── features        # Hold-out features data
-        |       └── labels          # Hold-out features data
+        |       └── labels          # Hold-out labels data
         ├── 1-preprocessed          # Folder containing the preprocessed data in .parquet format
         ├── 2-features              # Folder containing the extracted features with labels in .parquet format
         ├── 3-ml_datasets           # Folder containing the split between training set, validation set and hold-out set
