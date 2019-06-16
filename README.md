@@ -1,8 +1,8 @@
 # Grab-safety challenge submission
 
 # About the submission
-The solution has been developped on an AWS EC2 instance (r4.4xlarge)<br>
-In order to run prediction make sure that the "data" folder structure is respected:<br>
+The solution has been developed on an AWS EC2 instance (r4.4xlarge)<br>
+In order to make a prediction make sure that the "data" folder follows the below structure:<br>
 
     .
     ├── data                        # Data folder
