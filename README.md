@@ -6,7 +6,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"features" files of the hold-out data must be in "/grab-safety/data/0-raw_data/holdout/features/"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"labels" unique file of the hold-out data must be in "/grab-safety/data/0-raw_data/holdout/labels/"<br>
 3 - Execute the python notebook "05-preprocess-holdout-data.ipynb" located in the "/grab-safety/00_preprocessing/" folder<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Becareful extracting features with tsfresh takes a long time even with an EC2 r4.4xlarge instance<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Becareful extracting features with tsfresh takes approx. 4 hours even with an EC2 r4.4xlarge instance<br>
 4 - Once the features are created, go to the "/grab-safety/02_prediction/" folder and execute the python notebook "01-apply-lgb-model.ipynb"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The lightgbm model classifier has already been trained and is located in the folder "/grab-safety/02_prediction/models/"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the notebook will return the performance of the model on the hold-out data<br>
