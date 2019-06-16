@@ -6,9 +6,10 @@ Contact : boraeang [at] hotmail.com <br>
 
 # Python Library Requirements
 Besides the usual libraries available in the Anaconda distribution, this project requires the following libraries:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tsfresh (to extract features from time series)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lightgbm, xgboost
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hyperopt (if one's wants to retrain the model)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tsfresh (to extract features from time series)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lightgbm<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xgboost<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hyperopt (if one's wants to retrain the model)<br>
 
 # About the submission
 The solution has been developed using an AWS EC2 instance (r4.4xlarge) with the AMI ID
