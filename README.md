@@ -1,5 +1,5 @@
 # Grab-safety challenge submission
-
+Contact : boraeang [at] hotmail.com
 # About the submission
 The solution has been developed on an AWS EC2 instance (r4.4xlarge)<br>
 In order to make a prediction make sure that the "data" folder follows the below structure:<br>
