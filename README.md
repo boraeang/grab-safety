@@ -1,5 +1,9 @@
 # Grab-safety challenge submission
 Contact : boraeang [at] hotmail.com
+NB: The final submission only contains the model who had the best performance on the validation set so far.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For information: Many deep learning models have been tested during this challenge (LSTM, LSTM with autoencoder, GRU, TCN, CNN)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only the CNN did manage to get a 0.72 ROC AUC on the validation set but is not presented here as LightGBM shows better results. Nevertheless, I will be happy to share the Deep Learning Notebooks if one is interested.
+
 # About the submission
 The solution has been developed using an AWS EC2 instance (r4.4xlarge) with the AMI ID
 Deep Learning AMI (Amazon Linux) Version 23.0 <br>
