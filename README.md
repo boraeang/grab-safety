@@ -11,6 +11,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The lightgbm model classifier has already been trained and is located in the folder "/grab-safety/02_prediction/models/"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the notebook will return the performance of the model on the hold-out data<br>
 
+# To retrain the model (not necessary as the model has been saved in this project):
+1 - Go to the "/" and run all the python notebooks in their respective order<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01-preprocess-data.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02a-feature-engineering-xgboost.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02b-feature-engineering-xgboost2.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03_split-data.ipynb<br>
+
+
 <img src="https://static.wixstatic.com/media/397bed_e0fd4340ff5f40de876b26f0fb7e1f83~mv2.png/v1/fill/w_610,h_610,al_c,q_85,usm_0.66_1.00_0.01/Grab%20EDM_Safety.webp"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
