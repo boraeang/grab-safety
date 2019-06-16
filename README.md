@@ -6,18 +6,25 @@ In order to make a prediction make sure that the "data" folder follows the below
 
     .
     ├── data                        # Data folder
-        ├── 0-raw_data              # Folder containing all the raw data in .csv format
-        |   ├── safety              # Folder containing the original data for the challenge
-        |   │   ├── features        # Original features data
-        |   |   └── labels          # Original labels data
-        |   └── holdout             # Folder containing the hold-out data for the challenge
-        |       ├── features        # Hold-out features data
-        |       └── labels          # Hold-out labels data
-        ├── 1-preprocessed          # Folder containing the preprocessed data in .parquet format
-        ├── 2-features              # Folder containing the extracted features with labels in .parquet format
-        ├── 3-ml_datasets           # Folder containing the split between training set, validation set and hold-out set
-        └── 4-results               # Final prediction of the model (on validation set and hold-out set)
-
+    |   ├── 0-raw_data              # Folder containing all the raw data in .csv format
+    |   |   ├── safety              # Folder containing the original data for the challenge
+    |   |   │   ├── features        # Original features data
+    |   |   |   └── labels          # Original labels data
+    |   |   └── holdout             # Folder containing the hold-out data for the challenge
+    |   |       ├── features        # Hold-out features data
+    |   |       └── labels          # Hold-out labels data
+    |   ├── 1-preprocessed          # Folder containing the preprocessed data in .parquet format
+    |   ├── 2-features              # Folder containing the extracted features with labels in .parquet format
+    |   ├── 3-ml_datasets           # Folder containing the split between training set, validation set and hold-out set
+    |   └── 4-results               # Final prediction of the model (on validation set and hold-out set)
+    |
+    ├── 00_preprocessing            # Notebooks folder to process the data
+    ├── 01_training                 # Notebook folder to create the model (No need to re-execute it)
+    └── 02_prediction               # Notebook folder to validate the performance of the model either on validation or hold-out set
+    
+    
+    
+    
 >
 
 # To run a prediction on holdout data:
