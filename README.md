@@ -4,12 +4,16 @@
 The solution has been developped on an AWS EC2 instance (r4.4xlarge)<br>
 In order to run prediction make sure that the "data" folder structure is respected:<br>
 
-+-- data<br>
-    +-- 0-raw_data<br>
-    +--
-    +-- safety
-    |   +-- features
+    .
+    ├── data                    # 
+    │   ├── TOC.md              # Table of contents
+    │   ├── faq.md              # Frequently asked questions
+    │   ├── misc.md             # Miscellaneous information
+    │   ├── usage.md            # Getting started guide
+    │   └── ...                 # etc.
+    └── ...
 
+>
 
 # To run a prediction on holdout data:
 1 - Clone this project in your home folder<br>
