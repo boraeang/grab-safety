@@ -59,6 +59,6 @@ In order to make a prediction make sure that the "data" folder follows the below
 2 - Go to the "/grab-safety/01_training/" folder and run the 01-create-lgb-model.ipynb notebook<br>
 
 
-<img src="https://static.wixstatic.com/media/397bed_e0fd4340ff5f40de876b26f0fb7e1f83~mv2.png/v1/fill/w_610,h_610,al_c,q_85,usm_0.66_1.00_0.01/Grab%20EDM_Safety.webp"
+<center><img src="https://static.wixstatic.com/media/397bed_e0fd4340ff5f40de876b26f0fb7e1f83~mv2.png/v1/fill/w_610,h_610,al_c,q_85,usm_0.66_1.00_0.01/Grab%20EDM_Safety.webp"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /></center>
